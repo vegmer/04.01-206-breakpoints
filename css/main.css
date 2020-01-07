@@ -1,0 +1,16 @@
+
+/* ---TABLET--- */
+/* ----------- Make background red in tablets larger than 768px wide ----------- */
+@media (min-width: 768px) {
+	body {
+    background: red;
+  }
+}
+
+/* ---DESKTOP--- */
+/* ----------- Make background pink in monitors larger than 1200px wide ----------- */
+@media (min-width: 1200px) {
+		body{
+			background: pink;
+		}
+}
